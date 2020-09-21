@@ -1,0 +1,171 @@
+﻿html:not(.responsive) {
+	min-width: 1000px; /* viewport */
+}
+
+/*=============================================
+ * body
+ *=============================================*/
+
+body {
+	color: #000;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック',
+		'MS PGothic', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	letter-spacing: 0;
+	background: #fff;
+	min-width: inherit;
+	min-height: inherit;
+	max-height: 100%;
+}
+body.nav--opened {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	overflow: hidden;
+}
+/*=============================================
+ * fonts - DON'T EDIT
+ *=============================================*/
+
+.fnt-mincho {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝",
+		serif;
+}
+.fnt-meiryo {
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+		sans-serif;
+}
+.fnt-gothic {
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック',
+		'MS PGothic', sans-serif;
+}
+
+/*=============================================
+ * .fnt - customs
+ *=============================================*/
+
+.fnt-mincho {
+}
+.fnt-meiryo {
+}
+.fnt-gothic {
+}
+.fnt-garamond {
+}
+.fnt-montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*=============================================
+ * <main>
+ *=============================================*/
+
+main {
+	clear: both;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.wrap {
+	width: 1200px;
+}
+
+/*=============================================
+ * <header>
+ *=============================================*/
+
+header {
+}
+header h1 {
+}
+header .logo {
+}
+header .tel {
+}
+header nav {
+}
+
+/*=============================================
+ * key
+ *=============================================*/
+
+#key {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	position: relative;
+}
+#key ul {
+	min-height: inherit;
+}
+#key li {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	min-height: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/*=============================================
+ * <section>
+ *=============================================*/
+
+section {
+}
+
+/*=============================================
+ * <footer>
+ *=============================================*/
+
+footer {
+}
+footer .logo {
+}
+footer .tel {
+}
+footer nav {
+}
+
+/*=============================================
+ * .socialbuttons
+ *=============================================*/
+
+footer .socialbuttons {
+}
+
+/*=============================================
+ * copyright
+ *=============================================*/
+
+address {
+}
+a {
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+.hidden-sp {
+	display: block;
+}
+.hidden-pc {
+	display: none;
+}
+@media screen and (max-width: 767px) {
+	.hidden-sp {
+		display: none !important;
+	}
+	.hidden-pc {
+		display: block !important;
+	}
+}

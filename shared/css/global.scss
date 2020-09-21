@@ -1,0 +1,52 @@
+/* Scss Document */
+@charset "UTF-8";
+@mixin pos_tl($top,$left){
+	top:$top;
+	left:$left;
+	position: absolute;
+}
+
+@mixin pos_bl($bottom,$left){
+	bottom:$bottom;
+	left:$left;
+	position: absolute;
+}
+@mixin pos_tr($top,$right){
+	top:$top;
+	right:$right;
+	position: absolute;
+}
+@mixin pos_br($bottom,$right){
+	bottom:$bottom;
+	right:$right;
+	position: absolute;
+}
+@mixin bo_ra($w){
+	border-radius: $w;
+	-moz-border-radius: $w;
+	-webkit-border-radius: $w;
+}
+@mixin shadow($w){
+	box-shadow: $w;
+	-moz-box-shadow: $w;
+	-webkit-box-shadow: $w;
+}
+@mixin flex(){
+	display: -webkit-flex; /* Safari */
+    display: flex;
+}
+@mixin flex_num($num){
+	-webkit-flex: $num;  /* Safari 6.1+ */
+    -ms-flex: $num;  /* IE 10 */    
+    flex: $num;
+}
+@mixin flex_column($num){
+	-webkit-column-count: $num;
+	-moz-column-count: $num;
+	column-count: $num;
+}
+@mixin break_inside(){
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
